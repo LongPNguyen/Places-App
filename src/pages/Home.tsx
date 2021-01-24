@@ -60,7 +60,7 @@ export default function Home() {
         </IonToolbar>
       </IonHeader>
       <IonContent class="appBody">
-        <Cards newCards={CardData} />
+        <Cards newCards={CardData} key="cards"/>
       </IonContent>
       <IonFab vertical="bottom" horizontal="start" slot="fixed">
         <IonFabButton class="fabBtn" onClick={() => setShowModal(true)}>

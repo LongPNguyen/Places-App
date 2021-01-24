@@ -15,7 +15,7 @@ interface ContainerProps {}
 
 const Menu: React.FC<ContainerProps> = () => {
   return (
-    <div className="container">
+    <div>
       <IonMenu
         side="start"
         menuId="menu"

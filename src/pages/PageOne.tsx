@@ -7,9 +7,11 @@ import {
   IonMenuButton,
   IonButtons,
   IonText,
+  IonIcon,
 } from "@ionic/react";
 import React from "react";
 import "./Pages.css";
+import { notifications } from "ionicons/icons";
 
 const PageOne: React.FC = () => {
   return (
@@ -17,9 +19,14 @@ const PageOne: React.FC = () => {
       <IonHeader>
         <IonToolbar class="toolBar">
           <IonButtons slot="start">
-            <IonMenuButton />
+            <IonMenuButton style={{ color: "white" }} />
           </IonButtons>
-          <IonTitle class="ion-text-center">Page 1</IonTitle>
+          <IonTitle class="title" style={{ display: "inline" }}>
+            Page 1
+          </IonTitle>
+          <IonButtons slot="end">
+            <IonIcon class="bellIcon" icon={notifications} />
+          </IonButtons>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen class="appBody">
