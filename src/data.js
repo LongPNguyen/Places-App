@@ -1,6 +1,6 @@
 export const CardData = [
       { "id": 1,
-        "title": "Crossraods Art District",
+        "title": "Crossroads Art District",
         "imgSrc": "https://kccrossroads.org/wp-content/uploads/2015/03/CCA-Kauffman-home.jpg",
         "description": "The Crossroads Arts District is an artistic downtown neighborhood where once-vacant warehouses now house a variety of eclectic, locally-owned boutiques, unique restaurants and a thriving arts scene.",
         "date": "Jan 22, 2021"
