@@ -1,0 +1,35 @@
+.toolBar {
+  --background: #006283;
+}
+
+.title {
+  text-align: center;
+}
+
+.bellIcon {
+  font-size: 23px;
+  margin: 0.5em;
+}
+
+.appBody {
+  --ion-background-color: white;
+}
+
+.fabBtn {
+  --background: #ff7042;
+  --box-shadow: 0px 4px 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.placeHolder {
+  margin-top: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalContents {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,110 @@
+.sideMenu {
+  --ion-background-color: #006283;
+  margin-left: -2em;
+  margin-top: 76px;
+}
+
+.menuBackground {
+  --background: #006283;
+}
+
+.navList {
+  list-style-type: none;
+  background-color: #006283;
+}
+
+.cardContents {
+  --background: "white";
+}
+
+img {
+  object-fit: cover;
+  height: 20vh;
+  width: 100%;
+}
+
+ion-card {
+  border-radius: 0;
+  height: 320px;
+  max-width: 400px;
+  min-width: 200px;
+}
+
+ion-card-content {
+  overflow: hidden;
+  line-height: 25px;
+  max-height: 65px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.centerModalItems {
+  display: flex;
+  justify-content: center;
+}
+
+.modalContainer {
+  --background: #fff
+    url("https://www.uscgranite.com/wp-content/uploads/2016/05/KansasCity-1024x596.jpg")
+    no-repeat center center / cover;
+}
+
+
+
+
+/* custom widths and heights */
+
+@media only screen and (width: 540px) {
+  ion-card {
+    height: 350px;
+    width:208px;
+  }
+}
+
+@media only screen and (width: 768px) {
+  ion-card {
+    height: 420px;
+  }
+}
+
+@media only screen and (width: 1024px) {
+  ion-card {
+    height: 480px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  ion-card {
+    height: 330px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  ion-card {
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+    ion-card {
+      height: 330px;
+    }
+  }
+
+@media only screen and (width: 280px) {
+    ion-card {
+      height: 330px!important;
+    }
+  }
+
+@media only screen and (max-width: 360px) {
+    ion-card {
+      height: 290px;
+    }
+  }
+
+.cardFooter {
+      display:flex;
+      margin-left: 1em
+  }
